@@ -1,0 +1,102 @@
+body {
+    padding:0;
+    margin:0;
+    
+}
+h1 {
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:#333;
+    font-family: "helvetica", sans-serif;
+    letter-spacing: 3px;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:#333;
+    font-family: "helvetica", sans-serif;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+.main-text {
+    font-family: "helvetica", sans-serif;
+    font-size: 15px;
+    text-align: left;
+    color:#333;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 15%;
+    padding-left: 15%;
+}
+
+.navbar {
+    display:inline
+    
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 15%;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    width:100%
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+.examples {
+    padding-top: 10px;
+    text-align: center;
+    overflow:hidden;
+    white-space:nowrap;
+    
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: left;
+}
+
+.copyright {
+    float: left;
+    color: white;
+}
+
+.createdby {
+    width: 100%;
+    float:right;
+    color:white;
+    align-content: right;
+}
